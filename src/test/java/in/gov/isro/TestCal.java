@@ -26,5 +26,19 @@ public class TestCal {
 		int result = calc.subtract(10, 6);
 		assertEquals(4, result);	
 	}
+	
+	@Test
+	public void divide() {
+		Calculator calc = new Calculator();
+		int result = calc.divide(10, 6);
+		assertEquals(1, result);	
+	}
+	
+	@Test
+	public void quotient() {
+		Calculator calc = new Calculator();
+		int result = calc.quotient(10, 6);
+		assertEquals(4, result);	
+	}
 		
 }
