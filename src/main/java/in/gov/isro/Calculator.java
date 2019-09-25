@@ -21,6 +21,6 @@ public class Calculator {
 	}
 	public int quotient(int x,int y)
 	{
-	 return x%y 
+	 return x%y ;
 	}
 }
