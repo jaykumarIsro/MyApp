@@ -1,3 +1,4 @@
+
 package in.gov.isro;
 
 public class Calculator {
@@ -17,6 +18,7 @@ public class Calculator {
 	}
 	public int divide(int x,int y)
 	{
+	 int f = 0;
 	 return x/y ;
 	}
 	public int quotient(int x,int y)
